@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "NotiUV",
+  "description": "Esta extensión alerta si hay una nueva noticia en el sitio de la UV",
+  "version": "1.0",
+  "icons": { 
+    "16": "d1.png",
+    "48": "d2.png",
+    "128": "d3.png" 
+ }
+  ,
+  "permissions": [ "http://www.uv-mx/" ],
+
+  "browser_action": {
+    "default_icon": "dezka.png",
+    "default_title": "Calculadora de Promedio UV",
+    "default_popup": "calculador.html"
+  }
+}
